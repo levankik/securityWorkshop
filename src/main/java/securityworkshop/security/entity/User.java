@@ -1,4 +1,4 @@
-package entity;
+package securityworkshop.security.entity;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;

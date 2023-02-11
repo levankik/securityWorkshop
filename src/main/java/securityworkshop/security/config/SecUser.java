@@ -1,6 +1,6 @@
-package config;
+package securityworkshop.security.config;
 
-import entity.User;
+import securityworkshop.security.entity.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

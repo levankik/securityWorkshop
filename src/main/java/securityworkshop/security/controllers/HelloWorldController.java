@@ -1,4 +1,4 @@
-package controllers;
+package securityworkshop.security.controllers;
 
 import org.springframework.web.bind.annotation.PostMapping;
 

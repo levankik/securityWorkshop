@@ -1,4 +1,4 @@
-package config;
+package securityworkshop.security.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -7,14 +7,14 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import repository.UserRepository;
+import securityworkshop.security.repository.UserRepository;
 
 @Configuration
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-public class SecConfig {
+public class SecurityConfig {
     private final UserRepository userRepository;
 
-    public SecConfig(UserRepository userRepository) {
+    public SecurityConfig(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 
